@@ -12,8 +12,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: black;
-    color: white;
+    
    } 
 </style>
 <body>
@@ -30,6 +29,29 @@
             <li>BT</li>
             <li>Production</li>
         </ul>
+        <div class="select-dept">
+            <h2>Select your department</h2>
+            <select name="department">
+                <option value="choose">Choose an option</option>
+                <option value="cs">CSE</option>
+                <option value="cl">CL</option>
+                <option value="bt">BT</option>
+                <option value="mech">MECH</option>
+            </select>
+        </div>
     </div>
+    <div>
+        <h2>About</h2>
+        <audio controls>
+            <source src="https://www.kozco.com/tech/LRMonoPhase4.wav" type="audio/x-wav">
+        </audio>
+        <p style="margin-left:100px;margin-right:100px;">  Sree Chitra Thirunal College of Engineering  (SCTCE), Thiruvananthapuram was established by the Govt. of Kerala in the year 1995 in memoriam of the Great Maharaja of Travancore and is affiliated to the APJ Abdul Kalam Technological University(KTU) of Kerala with AICTE approval.  The Institution has the broad objective of grooming young men and women into technocrats through the process of engineering education, training and research.  SCTCE offers 7 undergraduate and 3 postgraduate courses. SCTCE is also a research centre under APJ Abdul Kalam Technological university since  2015 and offers PhD programmes</p>
+    </div>
+    <button onclick="fun()">click</button>
 </body>
+<script>
+    function fun(){
+        alert("button is pressed");
+    }
+</script>
 </html>
